@@ -500,7 +500,8 @@ svg {
   --items: 3;
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
-overl .portfolio-link {
+
+.portfolio-link {
   display: block;
   transition: box-shadow var(--hover-time) var(--timing-function);
 }
